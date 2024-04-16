@@ -1,0 +1,22 @@
+Fact: 0
+   Attribute Value: 1
+Fact: 1
+   Attribute Value: 4
+Fact: 2
+   Attribute Value: 9
+Fact: 3
+   Attribute Value: 16
+Fact: 4
+   Attribute Value: 25
+Fact: 5
+   Attribute Value: 36
+Fact: 6
+   Attribute Value: 49
+Fact: 7
+   Attribute Value: 64
+Fact: 8
+   Attribute Value: 81
+Fact: 9
+   Attribute Value: 100
+Fact: 10
+   Attribute Value: 121

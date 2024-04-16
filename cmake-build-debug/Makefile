@@ -129,53 +129,77 @@ tree/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tree.dir/build.make CMakeFiles/tree.dir/build
 .PHONY : tree/fast
 
-messages.o: messages.cpp.o
-.PHONY : messages.o
+main.o: main.cpp.o
+.PHONY : main.o
 
 # target to build an object file
-messages.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tree.dir/build.make CMakeFiles/tree.dir/messages.cpp.o
-.PHONY : messages.cpp.o
+main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tree.dir/build.make CMakeFiles/tree.dir/main.cpp.o
+.PHONY : main.cpp.o
 
-messages.i: messages.cpp.i
-.PHONY : messages.i
+main.i: main.cpp.i
+.PHONY : main.i
 
 # target to preprocess a source file
-messages.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tree.dir/build.make CMakeFiles/tree.dir/messages.cpp.i
-.PHONY : messages.cpp.i
+main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tree.dir/build.make CMakeFiles/tree.dir/main.cpp.i
+.PHONY : main.cpp.i
 
-messages.s: messages.cpp.s
-.PHONY : messages.s
+main.s: main.cpp.s
+.PHONY : main.s
 
 # target to generate assembly for a file
-messages.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tree.dir/build.make CMakeFiles/tree.dir/messages.cpp.s
-.PHONY : messages.cpp.s
+main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tree.dir/build.make CMakeFiles/tree.dir/main.cpp.s
+.PHONY : main.cpp.s
 
-tm.o: tm.cpp.o
-.PHONY : tm.o
+pfm.o: pfm.cpp.o
+.PHONY : pfm.o
 
 # target to build an object file
-tm.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tree.dir/build.make CMakeFiles/tree.dir/tm.cpp.o
-.PHONY : tm.cpp.o
+pfm.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tree.dir/build.make CMakeFiles/tree.dir/pfm.cpp.o
+.PHONY : pfm.cpp.o
 
-tm.i: tm.cpp.i
-.PHONY : tm.i
+pfm.i: pfm.cpp.i
+.PHONY : pfm.i
 
 # target to preprocess a source file
-tm.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tree.dir/build.make CMakeFiles/tree.dir/tm.cpp.i
-.PHONY : tm.cpp.i
+pfm.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tree.dir/build.make CMakeFiles/tree.dir/pfm.cpp.i
+.PHONY : pfm.cpp.i
 
-tm.s: tm.cpp.s
-.PHONY : tm.s
+pfm.s: pfm.cpp.s
+.PHONY : pfm.s
 
 # target to generate assembly for a file
-tm.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tree.dir/build.make CMakeFiles/tree.dir/tm.cpp.s
-.PHONY : tm.cpp.s
+pfm.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tree.dir/build.make CMakeFiles/tree.dir/pfm.cpp.s
+.PHONY : pfm.cpp.s
+
+sm.o: sm.cpp.o
+.PHONY : sm.o
+
+# target to build an object file
+sm.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tree.dir/build.make CMakeFiles/tree.dir/sm.cpp.o
+.PHONY : sm.cpp.o
+
+sm.i: sm.cpp.i
+.PHONY : sm.i
+
+# target to preprocess a source file
+sm.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tree.dir/build.make CMakeFiles/tree.dir/sm.cpp.i
+.PHONY : sm.cpp.i
+
+sm.s: sm.cpp.s
+.PHONY : sm.s
+
+# target to generate assembly for a file
+sm.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tree.dir/build.make CMakeFiles/tree.dir/sm.cpp.s
+.PHONY : sm.cpp.s
 
 # Help Target
 help:
@@ -186,12 +210,15 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... tree"
-	@echo "... messages.o"
-	@echo "... messages.i"
-	@echo "... messages.s"
-	@echo "... tm.o"
-	@echo "... tm.i"
-	@echo "... tm.s"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
+	@echo "... pfm.o"
+	@echo "... pfm.i"
+	@echo "... pfm.s"
+	@echo "... sm.o"
+	@echo "... sm.i"
+	@echo "... sm.s"
 .PHONY : help
 
 

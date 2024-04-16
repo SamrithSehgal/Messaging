@@ -1,8 +1,10 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/tree.dir/messages.cpp.o"
-  "CMakeFiles/tree.dir/messages.cpp.o.d"
-  "CMakeFiles/tree.dir/tm.cpp.o"
-  "CMakeFiles/tree.dir/tm.cpp.o.d"
+  "CMakeFiles/tree.dir/main.cpp.o"
+  "CMakeFiles/tree.dir/main.cpp.o.d"
+  "CMakeFiles/tree.dir/pfm.cpp.o"
+  "CMakeFiles/tree.dir/pfm.cpp.o.d"
+  "CMakeFiles/tree.dir/sm.cpp.o"
+  "CMakeFiles/tree.dir/sm.cpp.o.d"
   "tree"
   "tree.pdb"
 )
