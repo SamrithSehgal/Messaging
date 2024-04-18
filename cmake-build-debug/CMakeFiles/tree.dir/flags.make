@@ -4,7 +4,7 @@
 # compile CXX with g++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/samrith/Downloads/Coding/Tree/include
+CXX_INCLUDES = -I/home/samrith/Downloads/Coding/Tree/include -isystem /usr/include/postgresql
 
 CXX_FLAGS = 
 

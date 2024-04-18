@@ -1,6 +1,7 @@
 #include "pfm.h"
+#include "am.h"
 #include <vector>
-
+#include <postgresql/libpq-fe.h>
 using namespace std;
 
 typedef enum {
@@ -22,8 +23,8 @@ class SchemaManager{
     public:    
         static SchemaManager &instance();                            
 
-        RC schemaInit(FileHandle fileHandle);
-        RC insertFact(void* data, FileHandle fileHandle);
+        RC schemaInit(FileHandle fileHandle, int sensorId);
+        RC insertFact(void* data, FileHandle fileHandle, Attribute attr);
         RC insertMessage(Attribute attr, void* data, FileHandle fileHandle);
         RC readAllFacts(FileHandle fileHandle);
         RC readAllData(int pageNum, Attribute attr, FileHandle fileHandle);

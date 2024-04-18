@@ -1,22 +1,202 @@
 Fact: 0
-   Attribute Value: 1
+   Attribute Value: 452
 Fact: 1
-   Attribute Value: 4
+   Attribute Value: 80.0783
 Fact: 2
-   Attribute Value: 9
+   Attribute Value: 24.4019
 Fact: 3
-   Attribute Value: 16
+   Attribute Value: 103
 Fact: 4
-   Attribute Value: 25
+   Attribute Value: 477
 Fact: 5
-   Attribute Value: 36
+   Attribute Value: 598
 Fact: 6
-   Attribute Value: 49
+   Attribute Value: 451
 Fact: 7
-   Attribute Value: 64
+   Attribute Value: 5.649
 Fact: 8
-   Attribute Value: 81
+   Attribute Value: bjlcshhvd
 Fact: 9
-   Attribute Value: 100
+   Attribute Value: 676
 Fact: 10
-   Attribute Value: 121
+   Attribute Value: 130
+Fact: 11
+   Attribute Value: 59.1418
+Fact: 12
+   Attribute Value: 56.0392
+Fact: 13
+   Attribute Value: zuczudihebnnxqwks
+Fact: 14
+   Attribute Value: 46.3198
+Fact: 15
+   Attribute Value: 505
+Fact: 16
+   Attribute Value: mo
+Fact: 17
+   Attribute Value: i
+Fact: 18
+   Attribute Value: 24.0175
+Fact: 19
+   Attribute Value: 4
+Fact: 20
+   Attribute Value: 47.2472
+Fact: 21
+   Attribute Value: 383
+Fact: 22
+   Attribute Value: hbfofmxcxnpr
+Fact: 23
+   Attribute Value: rc
+Fact: 24
+   Attribute Value: nokfmzuuiznqcrejd
+Fact: 25
+   Attribute Value: 402
+Fact: 26
+   Attribute Value: uxhobsgnfvwli
+Fact: 27
+   Attribute Value: ggqvjkcroedqveksdsi
+Fact: 28
+   Attribute Value: 16.6705
+Fact: 29
+   Attribute Value: 164
+Fact: 30
+   Attribute Value: 60
+Fact: 31
+   Attribute Value: 89.8373
+Fact: 32
+   Attribute Value: 72.7352
+Fact: 33
+   Attribute Value: 862
+Fact: 34
+   Attribute Value: pw
+Fact: 35
+   Attribute Value: 851
+Fact: 36
+   Attribute Value: 18.2724
+Fact: 37
+   Attribute Value: 183
+Fact: 38
+   Attribute Value: evrzngmzfkpswinzylp
+Fact: 39
+   Attribute Value: 496
+Fact: 40
+   Attribute Value: bnwpw
+Fact: 41
+   Attribute Value: yteggfkptene
+Fact: 42
+   Attribute Value: 802
+Fact: 43
+   Attribute Value: 161
+Fact: 44
+   Attribute Value: fnkrmbpsugqnmvuqfmm
+Fact: 45
+   Attribute Value: 3.0124
+Fact: 46
+   Attribute Value: pds
+Fact: 47
+   Attribute Value: 3.2111
+Fact: 48
+   Attribute Value: 889
+Fact: 49
+   Attribute Value: tnygyvbpdmd
+Fact: 50
+   Attribute Value: ox
+Fact: 51
+   Attribute Value: okdckfbbuzgduvbztxc
+Fact: 52
+   Attribute Value: 37.1877
+Fact: 53
+   Attribute Value: 2.7284
+Fact: 54
+   Attribute Value: 970
+Fact: 55
+   Attribute Value: qhqvjqriytc
+Fact: 56
+   Attribute Value: 3
+Fact: 57
+   Attribute Value: 99.7093
+Fact: 58
+   Attribute Value: jwrmwhg
+Fact: 59
+   Attribute Value: bsgxbxokv
+Fact: 60
+   Attribute Value: frhxxh
+Fact: 61
+   Attribute Value: 343
+Fact: 62
+   Attribute Value: 459
+Fact: 63
+   Attribute Value: 49.502
+Fact: 64
+   Attribute Value: xwruwqliouueyomyl
+Fact: 65
+   Attribute Value: lwtvohpmerzeos
+Fact: 66
+   Attribute Value: 10.1391
+Fact: 67
+   Attribute Value: 16.3191
+Fact: 68
+   Attribute Value: odpguussp
+Fact: 69
+   Attribute Value: 55.7921
+Fact: 70
+   Attribute Value: 223
+Fact: 71
+   Attribute Value: mecwqvst
+Fact: 72
+   Attribute Value: 873
+Fact: 73
+   Attribute Value: kpvehptyxq
+Fact: 74
+   Attribute Value: 80.7604
+Fact: 75
+   Attribute Value: 767
+Fact: 76
+   Attribute Value: vtppmfjm
+Fact: 77
+   Attribute Value: jghopxjnuzu
+Fact: 78
+   Attribute Value: csrdvkbqbpefxpepbow
+Fact: 79
+   Attribute Value: 136
+Fact: 80
+   Attribute Value: 751
+Fact: 81
+   Attribute Value: rhssyjxvux
+Fact: 82
+   Attribute Value: 89.1893
+Fact: 83
+   Attribute Value: i
+Fact: 84
+   Attribute Value: 49.9843
+Fact: 85
+   Attribute Value: zjmcwgtdznbkkxfji
+Fact: 86
+   Attribute Value: 5.761
+Fact: 87
+   Attribute Value: nn
+Fact: 88
+   Attribute Value: 7.3933
+Fact: 89
+   Attribute Value: 842
+Fact: 90
+   Attribute Value: rbqqntbzq
+Fact: 91
+   Attribute Value: 999
+Fact: 92
+   Attribute Value: 39.7955
+Fact: 93
+   Attribute Value: 29.9014
+Fact: 94
+   Attribute Value: uqrzieh
+Fact: 95
+   Attribute Value: 782
+Fact: 96
+   Attribute Value: 947
+Fact: 97
+   Attribute Value: wxdwhiwuyzu
+Fact: 98
+   Attribute Value: 131
+Fact: 99
+   Attribute Value: mmgptdmcpbxxpsvmv
+Fact: 100
+   Attribute Value: podojffozr

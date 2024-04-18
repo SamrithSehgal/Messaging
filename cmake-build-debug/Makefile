@@ -129,6 +129,30 @@ tree/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tree.dir/build.make CMakeFiles/tree.dir/build
 .PHONY : tree/fast
 
+am.o: am.cpp.o
+.PHONY : am.o
+
+# target to build an object file
+am.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tree.dir/build.make CMakeFiles/tree.dir/am.cpp.o
+.PHONY : am.cpp.o
+
+am.i: am.cpp.i
+.PHONY : am.i
+
+# target to preprocess a source file
+am.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tree.dir/build.make CMakeFiles/tree.dir/am.cpp.i
+.PHONY : am.cpp.i
+
+am.s: am.cpp.s
+.PHONY : am.s
+
+# target to generate assembly for a file
+am.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tree.dir/build.make CMakeFiles/tree.dir/am.cpp.s
+.PHONY : am.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -210,6 +234,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... tree"
+	@echo "... am.o"
+	@echo "... am.i"
+	@echo "... am.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

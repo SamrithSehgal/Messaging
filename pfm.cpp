@@ -90,17 +90,17 @@ FileHandle::~FileHandle() = default;
 
 RC FileHandle::readPage(PageNum pageNum, void *data) {
     if(pageNum >= getNumberOfPages()){
-        cout << "Page doesnt exist" << endl << endl;
+        cout << "Page doesnt exist";
         return -1;
     }
     int foundData = fseek(filePointer, pageNum * 4096, SEEK_SET);
     if(foundData != 0){
-        cout << "Error in finding page" << endl << endl;
+        cout << "Error in finding page";
         return -1;
     }
     fread(data, 1, 4096, filePointer); 
     if(ferror(filePointer)){
-        cout << "Error in reading file" << endl << endl;
+        cout << "Error in reading file";
         return -1;
     }
     ct.writeRCounter();
@@ -110,19 +110,19 @@ RC FileHandle::readPage(PageNum pageNum, void *data) {
 
 RC FileHandle::writePage(PageNum pageNum, const void *data) {
     if(pageNum > getNumberOfPages()){
-        cout << "Page doesnt exist" << endl << endl;
+        cout << "Page doesnt exist";
         return -1;
     }
 
     int foundData = fseek(filePointer, pageNum * 4096, SEEK_SET); //moves to start then offsets current position by page number * # of bytes in page
     if(foundData != 0){
-        cout << "Error in finding page" << endl << endl;
+        cout << "Error in finding page";
         return -1;
     }
 
     fwrite(data, 1, 4096, filePointer); //writes 1 element of size 4096
     if(ferror(filePointer)){
-        cout << "Error in writing to file file" << endl << endl;
+        cout << "Error in writing to file file";
         return -1;
     }
     ct.writeWCounter();
@@ -133,13 +133,13 @@ RC FileHandle::writePage(PageNum pageNum, const void *data) {
 RC FileHandle::appendPage(const void *data) {
     int foundData = fseek(filePointer, 0, SEEK_END); //moves to end
     if(foundData != 0){ //Is this even possible or am I a dumbass?!?!
-        cout << "Error in finding end of file" << endl << endl;
+        cout << "Error in finding end of file";
         return -1;
     }
 
     fwrite(data, 1, 4096, filePointer);
     if(ferror(filePointer)){
-        cout << "Error in appending the page" << endl << endl;
+        cout << "Error in appending the page";
         return -1;
     }
     ct.writeACounter();
@@ -277,5 +277,3 @@ RC CounterTracker::writeACounter(){
     fflush(trackerPointer);
     return 0;
 }
-
-
